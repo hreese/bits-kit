@@ -1,13 +1,13 @@
 BITS Behörden-IT-Sicherheitstraining
 
-Stand: 20.12.2013
-Version 3.2.0
+Stand: 10.12.2014
+Version 3.5.0
 Autoren: AK IT StGB NRW, Dr. Lutz Gollan (Behörde für Inneres und Sport, Hamburg), Werner Eising (technische Unterstützung, Stadt Coesfeld), Jörg Lekschas (Bots-Seite, Robert-Koch-Institut, Berlin).
 Ansprechpartner Dr. Lutz Gollan
 E-Mail: Lutz.Gollan@bis.hamburg.de
 
 1.Überblick
-Unter dem Titel „BITS Behörden-IT-Sicherheitstraining“ hat im Jahr 2006 eine Arbeitsgruppe des Arbeitskreises Informationstechnologie des Städte- und Gemeindebundes Nordrhein-Westfalen das für Unternehmen konzipierte Computersicherheitstraining „open beware!“ an die Anforderungen von Verwaltungen angepasst. Mittlerweile liegt die aktualisierte Version 3.2.0 vor. Seit Oktober 2010 wird BITS von der KommunalAgenturNRW GmbH (http://www.kommunalagenturnrw.de) mit Unterstützung von Dr. Lutz Gollan, Behörde für Inneres und Sport, Hamburg, herausgegeben.
+Unter dem Titel „BITS Behörden-IT-Sicherheitstraining“ hat im Jahr 2006 eine Arbeitsgruppe des Arbeitskreises Informationstechnologie des Städte- und Gemeindebundes Nordrhein-Westfalen das für Unternehmen konzipierte Computersicherheitstraining „open beware!“ an die Anforderungen von Verwaltungen angepasst. Mittlerweile liegt die aktualisierte Version 3.5.0 vor. Seit Oktober 2010 wird BITS von der Kommunal Agentur NRW GmbH (http://www.kommunalagenturnrw.de) mit Unterstützung von Dr. Lutz Gollan, Behörde für Inneres und Sport, Hamburg, herausgegeben.
 
 2.Ziel
 Durch das Training sollen die Mitarbeiterinnen und Mitarbeiter von Verwaltungen, die regelmäßig an EDV-Arbeitsplätzen und insbesondere mit dem Internet beschäftigt sind, durch gezielte Information und Selbstlerneinheiten für die Sicherheitsaspekte der Computer- und Internetnutzung sensibilisiert werden.
@@ -19,6 +19,8 @@ Das Training ist kostenlos, vollständig browserbasiert und kann in jedes Intrane
 BITS kann auch auf ein Microsoft Sharepoint-Verzeichnis geladen und direkt dort aufgerufen werden. Für diesen Fall ist jedoch der Ordner "tools" vorher zu löschen. Er beinhaltet Dateien (.bat und .exe), die von Sharepoint nicht akzeptiert werden. 
 
 Vor der Freigabe für die Mitarbeiterschaft sollte die Seite „Ansprechpersonen“ für die entsprechende Verwaltung angepasst werden. Dies ist die Datei „index.htm“ im Pfad „allgemeines\ansprechpartner“. Hierzu sind HTML-Kenntnisse erforderlich. Gleiches gilt für den Fall, dass anders lautende Dienstvereinbarungen oder -anweisungen, insbesondere für die Kapitel "E-Mail" und "Vertrauliche Daten", existieren. Diese und weitere Dokumente können über die Seite "allgemeines\dokumente" verlinkt werden. Das Logo im Kopf von BITS ist die Datei kopfbild.jpg im Pfad "\images\individuell". Bitte bedenken Sie, dass BITS nur ein Angebot darstellt und leicht auf die lokalen Anforderungen hin angepasst werden kann.
+
+Über die Herausgeber bzw. den oben genannten Ansprechpartner kann der MD5-Hashwert der BITS-Version abgefragt werden. Dadurch soll verhindert werden, dass eine manipulierte BITS-Version heruntergeladen bzw. eingesetzt wird.
 
 4. Bedienung und technische Anforderungen
 Die Bedienung von „BITS Behörden-IT-Sicherheitstraining“ erfolgt durch den Aufruf der „index.html“-Seite (unmittelbar oder durch Verlinkung hierauf). Anschließend können die weitestgehend barrierefreien Seiten durch die Maus oder durch Tastaturbefehle genutzt werden.
@@ -36,7 +38,7 @@ Es besteht die Möglichkeit, dass bei den Wissenschecks am Ende der Lektionen bei
 Für Administratoren steht kostenfrei das BITS-Portal http://www.bits-portal.eu zur Verfügung. Dort werden Beta-Versionen, neue Funktionen und Inhalte diskutiert und auch alternative Versionen zum Download bereitgehalten.
 
 8.Rechtliches
-„BITS Behörden-IT-Sicherheitstraining“ basiert auf open beware!, das vom Unternehmen BDG GmbH & Co. KG (http://www.bdg.de/) herausgegeben wird. open beware! steht unter der GNU Public License (GPL, siehe http://www.fsf.org). Somit steht auch „BITS Behörden-IT-Sicherheitstraining“ unter dieser Lizenz und darf von Dritten kostenfrei veröffentlicht, vervielfältigt, weitergegeben und modifiziert werden, unter der Bedingung, dass auch die Änderungen unter der GPL stehen müssen.
+„BITS Behörden-IT-Sicherheitstraining“ basiert auf open beware!, das von der BDG GmbH & Co. KG, jetzt NTT Com Security (Germany) GmbH, herausgegeben wurde. open beware! steht unter der GNU Public License (GPL, siehe http://www.fsf.org). Somit steht auch „BITS Behörden-IT-Sicherheitstraining“ unter dieser Lizenz und darf von Dritten kostenfrei veröffentlicht, vervielfältigt, weitergegeben und modifiziert werden, unter der Bedingung, dass auch die Änderungen unter der GPL stehen müssen.
 
 Änderungs- oder Ergänzungswünsche nimmt Dr. Lutz Gollan (Lutz.Gollan@bis.hamburg.de) gerne entgegen.
 
@@ -44,8 +46,7 @@ Für Administratoren steht kostenfrei das BITS-Portal http://www.bits-portal.eu z
 
 CHANGELOG
 
-Das Changelog liegt als PDF-Datei BITS-03.2.0-Changelog.pdf in der ZIP-Datei.
-
+Aufgrund der Vielzahl von Änderungen liegt kein Changelog für diese Version vor.
 
 
 
