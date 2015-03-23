@@ -15,7 +15,10 @@
    id="svg3578"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="kopfbild.svg">
+   sodipodi:docname="kopfbild.svg"
+   inkscape:export-filename="/home/ge3242/src/bits-kit/bits/images/individuell/kopfbild.png"
+   inkscape:export-xdpi="83"
+   inkscape:export-ydpi="83">
   <defs
      id="defs3580">
     <clipPath
@@ -50,8 +53,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="390.4725"
+     inkscape:zoom="1"
+     inkscape:cx="389.75821"
      inkscape:cy="120"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -59,7 +62,7 @@
      units="px"
      inkscape:window-width="1680"
      inkscape:window-height="1005"
-     inkscape:window-x="0"
+     inkscape:window-x="1680"
      inkscape:window-y="45"
      inkscape:window-maximized="0" />
   <metadata
@@ -70,7 +73,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -81,7 +84,7 @@
      transform="translate(0,-932.36216)">
     <g
        id="g3478"
-       transform="matrix(0.64399794,0,0,-0.64399794,608.01887,1047.4897)">
+       transform="matrix(0.70254321,0,0,-0.70254321,598.56604,1052.5013)">
       <g
          id="g3480">
         <g
@@ -285,7 +288,7 @@
     </g>
     <g
        id="g3365"
-       transform="matrix(0.12179566,0,0,-0.12179566,5,1047.3622)">
+       transform="matrix(0.132868,0,0,-0.132868,0,1052.3622)">
       <path
          d="m 1223.77,201.875 -213.84,0 -254.16,272.883 0,156.238 246.24,272.156 220.32,0 -283.678,-352.797 285.118,-348.48 0,0 z m 224.64,0 -192.24,0 0,700.563 192.24,0 0,-700.563 z m 509.04,700.563 -462.96,0 0,-157.68 135.36,0 0,-543.606 192.24,0 0,543.606 135.36,0 0,157.68"
          style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -492,18 +495,5 @@
          id="path3447"
          inkscape:connector-curvature="0" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:0%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="14.257064"
-       y="1075.0448"
-       id="text4688"
-       sodipodi:linespacing="0%"
-       transform="matrix(0.96912411,-0.24657343,0.24657343,0.96912411,0,0)"><tspan
-         sodipodi:role="line"
-         x="14.257064"
-         y="1075.0448"
-         id="tspan4692"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;font-family:'DIN 1451 Std';-inkscape-font-specification:'DIN 1451 Std';fill:#800000">ToDo: Logo? Name? URL?</tspan></text>
   </g>
 </svg>
