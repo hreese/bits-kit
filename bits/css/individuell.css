@@ -12,7 +12,7 @@
 	height:110px;
 	z-index: 110;
 	background-color:#fff;
-	background-image: url(../images/individuell/logo260x110.gif);
+	background-image: url(../images/individuell/logo260x110.png);
 	background-repeat:no-repeat;
 	z-index: 110;
 	visibility: visible;
@@ -105,7 +105,7 @@ a:hover {
 	text-align:center;
 	height: 120px;
 	background-image:    url("../images/individuell/kopfbild.png");
-	background-position: left top;
+	background-position: center top;
 	background-repeat:no-repeat;
         margin-bottom: 10px;
 	}
@@ -155,9 +155,9 @@ a:hover {
 #content {
 	position:relative;
 	margin: 0;
-	background-color: #fff;
-	background-image: url(../images/design/bg_beware01.jpg);
-	background-position: top right;
+    background-color: #fff;
+	background-image: url(../images/individuell/kit_background.jpg);
+	background-position: center;
 	background-repeat: no-repeat;
 		}
 #loc_e-mail #content {
