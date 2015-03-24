@@ -14,6 +14,58 @@
 <link href="../../css/individuell.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../../highlight.js"></script>
 <script type="text/javascript" language="JavaScript" src="../../scripts/beware_01.js"></script>
+<script>
+function generatePass() {
+    var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var lowercase = "abcdefghijklmnopqrstuvwxyz";
+    var numbers   = "123456789";
+    var special   = "!&'()*+,-./:;<=>?[\\]^_`{|}~";
+    var all = uppercase + lowercase + numbers + special;
+
+    function randChar(charlist) {
+        return charlist.charAt(Math.floor(Math.random()*charlist.length));
+    };
+
+    function shuffleString(s) {
+        var a = s.split(""),
+            n = a.length;
+        for(var i = n - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var tmp = a[i];
+            a[i] = a[j];
+            a[j] = tmp;
+        }
+        return a.join("");
+    };
+
+    raw_pw =
+        randChar(uppercase) +
+        randChar(uppercase) +
+        randChar(lowercase) +
+        randChar(lowercase) +
+        randChar(numbers) +
+        randChar(numbers) +
+        randChar(special) +
+        randChar(special) +
+        randChar(all) +
+        randChar(all) +
+        randChar(all) +
+        randChar(all) +
+        randChar(all) +
+        randChar(all) +
+        randChar(all) +
+        randChar(all);
+
+    return shuffleString(raw_pw).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function replacePass() {
+    pws = document.getElementsByClassName("SicheresPasswort");
+    for (var i = 0; i < pws.length; i++) {
+        pws[i].innerHTML = generatePass();
+    }
+}
+</script>
 
 
 <!-- ------------------------------------------------------------------------ -->
@@ -56,7 +108,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 </script>
 <!-- InstanceEndEditable --><!-- InstanceParam name="id" type="text" value="loc_Passwörter" -->
 </head>
-<body id="loc_passworte"onload="MM_preloadImages('../../images/design/weiter_over.jpg','../../images/design/zurueck_over.jpg')">
+<body id="loc_passworte"onload="MM_preloadImages('../../images/design/weiter_over.jpg','../../images/design/zurueck_over.jpg');replacePass();">
 <div id="body2">
 <div class="powered" id="powered">
 
@@ -111,10 +163,15 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
   <div class="rightcontent01" id="rightcontent01">
     <p>Beispiele für sichere Passwörter:</p>
     <ul>
-      <li>7kmst!efel</li>
-      <li>0221idVvK</li>
-      <li>1Z0ll=2,54cm</li>
-      <li>sd%w)9g</li>
+      <li class="SicheresPasswort">3(m'UKgoYV)9N-S</li>
+      <li class="SicheresPasswort">F|4aJO+2k[WGkrV</li>
+      <li class="SicheresPasswort">ey.3fKYLErV8Q7-D</li>
+      <li class="SicheresPasswort">2Oaut1)2W|tY.rWU</li>
+      <li class="SicheresPasswort">f/5I&amp;I1/t8Yl&amp;D.F</li>
+      <li class="SicheresPasswort">uF,*Vyj_r9*TCK5&amp;</li>
+      <li class="SicheresPasswort">2M;P|-2V^I*2ii_,</li>
+      <li class="SicheresPasswort">Q!rS:csLeFdN918V</li>
+      <li class="SicheresPasswort">J&lt;=7Ug9!M{UVU]Yf</li>
     </ul>
   </div>
     <!-- InstanceEndEditable --> </div>
